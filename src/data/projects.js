@@ -1,0 +1,21 @@
+// Add or edit concept projects here. `preview` picks the mockup in Portfolio.jsx.
+export const projects = [
+  { id: 'support-assistant', preview: 'chat', title: 'AI Customer Support Assistant', category: 'AI & Automation',
+    description: 'An AI-powered support assistant concept designed to help businesses answer frequently asked questions using their own knowledge base.',
+    problem: 'Support teams repeat the same answers daily while customers wait for replies.',
+    solution: 'An assistant that answers from a business’s own documents and shows which source it used, handing over to a person when unsure.',
+    technology: ['React', 'LLM API', 'Retrieval over documents', 'Chat widget'],
+    benefit: 'Faster answers for customers and more time for the team to handle complex requests.' },
+  { id: 'business-website', preview: 'site', title: 'Smart Business Website', category: 'Web Development',
+    description: 'A responsive business website concept designed to communicate services clearly and convert visitors into qualified inquiries.',
+    problem: 'Many business sites bury their services and make it hard to get in touch.',
+    solution: 'A fast, clear layout with focused service sections and an inquiry flow that captures the details needed to respond well.',
+    technology: ['React', 'Responsive CSS', 'Accessible forms', 'SEO basics'],
+    benefit: 'A professional first impression and a simpler path from visitor to conversation.' },
+  { id: 'business-dashboard', preview: 'dash', title: 'Intelligent Business Dashboard', category: 'AI & Data',
+    description: 'A dashboard concept that brings important business information, workflow status, and actionable insights into one interface.',
+    problem: 'Key information sits across spreadsheets, inboxes and tools, so decisions rely on manual checking.',
+    solution: 'One interface combining metrics, workflow status and an activity feed, with AI-generated summaries of what needs attention.',
+    technology: ['React', 'Charts (SVG)', 'API integrations', 'AI summaries'],
+    benefit: 'A single, clear view of the business so teams spot issues earlier.' },
+];
